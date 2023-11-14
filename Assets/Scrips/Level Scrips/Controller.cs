@@ -42,7 +42,7 @@ public class Controller : MonoBehaviour
         {
             // Solo toma la entrada del jugador para la componente Z (adelante/atrás) del movimiento
             move = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
-            if (move[0]!=0 ||move[2]!=0 && unObjeto==null)
+            if ((move[0]!=0 ||move[2]!=0) && unObjeto==null)
             {
                 animator.GetComponent<Animator>().runtimeAnimatorController = anim1[1];
             }
@@ -54,7 +54,8 @@ public class Controller : MonoBehaviour
             {
                 animator.GetComponent<Animator>().runtimeAnimatorController = anim1[4];
             }
-            
+
+           
             
             move = transform.TransformDirection(move) * walkSpeed;
 

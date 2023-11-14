@@ -38,6 +38,7 @@ public class Collectible : MonoBehaviour
             // Solo activamos si no hemos sido activados antes.
             if (!active)
             {
+                controlarColeccionables.Instance.sumarCollect(1);
                 active = true;
                 startTime = Time.time;
                 activacion.Play();

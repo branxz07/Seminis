@@ -8,6 +8,8 @@ TagManager:
   - equipable
   - pesado
   - escalable
+  - Suelo
+  - notLoad
   layers:
   - Default
   - TransparentFX
