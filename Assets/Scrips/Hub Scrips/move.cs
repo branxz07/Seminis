@@ -18,7 +18,7 @@ public class move : MonoBehaviour
     public RuntimeAnimatorController[] anim1;
     public Animator animator;
 
-    private float verticalVelocity = 0.0f; // Variable para suavizar el salto
+
 
     // Start is called before the first frame update
     void Start()

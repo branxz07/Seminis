@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class letreros : MonoBehaviour
 {
-    [Header("Letreros dungeons")]
+    [Header("dungeons")]
     public GameObject cL1;
     public GameObject iL1;
     public GameObject cL2;
@@ -17,6 +17,12 @@ public class letreros : MonoBehaviour
     public GameObject iL5;
     public GameObject cL6;
     public GameObject iL6;
+    public GameObject[] lampsEncendidaIzq;
+    public GameObject[] lampsEncendidaDer;
+    public GameObject[] lampsApagadaIzq;
+    public GameObject[] lampsApagadaDer;
+    public GameObject[] Puertas;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +36,11 @@ public class letreros : MonoBehaviour
         {
             cL1.SetActive(true);
             iL1.SetActive(false);
+            Puertas[0].SetActive(false);
+            lampsApagadaIzq[0].SetActive(false);
+            lampsApagadaDer[0].SetActive(false);
+            lampsEncendidaIzq[0].SetActive(true);
+            lampsEncendidaDer[0].SetActive(true);
         }
         if (controlarColeccionables.Instance.L2)
         {

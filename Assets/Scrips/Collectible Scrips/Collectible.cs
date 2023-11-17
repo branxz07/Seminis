@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Collectible : MonoBehaviour
@@ -21,9 +22,10 @@ public class Collectible : MonoBehaviour
         {
             transform.position = Vector3.Lerp(transform.position, toCamera.position, 3 * Time.deltaTime);
             transform.rotation = toCamera.rotation;
+            this.gameObject.transform.LookAt(toCamera);
 
             // Verificamos si ha pasado un tiempo suficiente desde la activación.
-            if (Time.time - startTime >= 2.3f)
+            if (Time.time - startTime >= 1f)
             {
                 toShelf.SetActive(true);
                 this.gameObject.SetActive(false);
