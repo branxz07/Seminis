@@ -5,6 +5,8 @@ using Cinemachine;
 public class MoveToBoss : MonoBehaviour
 {
     public CinemachineBrain cinemachineBrain;
+    public AudioSource musicLevel,BossMusic;
+
     public Controller olmo;
     public GameObject BossObj;
     public GameObject camaraMain;
@@ -60,8 +62,9 @@ public class MoveToBoss : MonoBehaviour
     defaultBlend.m_Style = CinemachineBlendDefinition.Style.EaseInOut;
     cinemachineBrain.m_DefaultBlend = defaultBlend;
     olmo.enabled=false;
+    musicLevel.Stop();
+    BossMusic.Play();
     yield return new WaitForSeconds(.12f);  
-    
     camBossC.SetActive(false);
     camBossB.SetActive(true);
     yield return new WaitForSeconds(7.5f);  

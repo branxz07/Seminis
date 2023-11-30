@@ -1,0 +1,2623 @@
+fileFormatVersion: 2
+guid: 9fd18e2e2e7f62745924331742e59c21
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seminisGif_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e46bf47d3b37349870de9eeb77e2f1
+      internalID: -536072529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 9000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448a87ff001605a44850ff4c88d3a4a8
+      internalID: -675618968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 9000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd4235b27760ef46a2725ff53495843
+      internalID: 265806784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 9000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e3c04818d45c429dcf7219862198b
+      internalID: 185859130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 9000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d56e3f70c211d64d9c84ea1022b8808
+      internalID: 1817414995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 9000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3edaa03d37d5044fad618e3d6ee0995
+      internalID: 683914066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 9000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069114172a3ad5340b7b7a5c30d5b7c6
+      internalID: -1186098975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fab3660b970759459a705a3cc4c1a8b
+      internalID: 407595085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 8400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5681d9103c9954c8b6ecbef614d3e0
+      internalID: 1040897411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 8400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb2dc1f3af259c4ca57736d754c0aba
+      internalID: -344922036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 8400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45daa5129fac9c4395588265e3238af
+      internalID: 1468243646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_11
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584e2f546b425fc498c00935096d7959
+      internalID: -1113686006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a225bcc89e3e864fa31e4d771e55b57
+      internalID: 1369859008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_13
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79525ede92863b842a3804cd20d00380
+      internalID: -353444006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a45224502ad57146a84b3a2b3dd7792
+      internalID: 802593108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 7800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc9a5771d1159a40ac3044d2ae83428
+      internalID: -1948537444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 7800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dce0b6c22b4ac478df6bc354b9d187
+      internalID: -1200505670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_17
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4534cfc03b7894fb23c1d3ff1208b6
+      internalID: 34803235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_18
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2848604935397b84ea90f87d9d05b2d6
+      internalID: -1908552442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_19
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b116d5433488843896009c0ff38e34
+      internalID: -2100494249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_20
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dab8448917ce3b46ab4cf0be595fb3b
+      internalID: -1882685753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc3b58aba0042343be86158ed034d9f
+      internalID: 1977138537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 7200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228c6fdd084b7394086523207fab4070
+      internalID: -1831435971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_23
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 7200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f001d767331208d4cb245a5d8c2d2b25
+      internalID: 2086790484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_24
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 7200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a4312e7ebcbbe4d8f12d5b68afd3c2
+      internalID: -1640892773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_25
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79540bfc03242444baf8c235abe98a0c
+      internalID: -1142509986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_26
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fbecdf875c6b84f869be8fee99d7fe
+      internalID: 32874121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_27
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fa53e70f897d74db98ef479201f2b7
+      internalID: 776749646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0b3b8b958e32443a0c09358a3807f2
+      internalID: -1882154763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b3e16cff0cdf64284d81bc0c824022
+      internalID: 304519439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bf6516c1ef07b448effdc852c3724e
+      internalID: -1910023004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_31
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a101af25a0405b84f825da6bf762c6e5
+      internalID: -1273369740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_32
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccff5b3b89b8ab429ec9b0595f0d433
+      internalID: 495788981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_33
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8526c491add935c40ab2cd17fc53174e
+      internalID: 261847581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_34
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d580b76d43c87a40938498f24065991
+      internalID: 378864420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64697679007cd14c9e1b110a6518f82
+      internalID: 1543787747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e6767701ff7064c81930295d7885b8
+      internalID: 463788931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30da98523d1e9da46be7b0701658579d
+      internalID: -1535682229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_38
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b1028260efbcb43b161c43badfee3e
+      internalID: 653553772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_39
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7d7339f969e1047a61bfb3d235c07a
+      internalID: -1350513354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_40
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8f2b6facd3aec418f45f096572d069
+      internalID: 677003412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_41
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6129edf920a2848bbb90f58de23598
+      internalID: 684972311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9db1186c9dd784884c5c40ccbcfc6b
+      internalID: -523117979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_43
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9e40ca37606984e9287ea515d81580
+      internalID: 2094244249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_44
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aca7daab50183b41b0d421c85e97cc7
+      internalID: 1087945844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_45
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d880d35abd59b940a8476ddf275c15f
+      internalID: -2145300938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_46
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462fe93e29da8724d86f9657bd305246
+      internalID: 459634492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_47
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ffcb8556e77d84193cca20be053f82
+      internalID: -1445875894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_48
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4910359b41aaa724b96e0177faacb316
+      internalID: -612303520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae47aed3d0d8149479995757119d2fbe
+      internalID: -896972363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_50
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b2c6b4d9b0ff84c92b1f56097fcf7d
+      internalID: 1300286257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_51
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6715f4b5221688e47b6b5a5ac8fe7dd0
+      internalID: 973482707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_52
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8cccfca86ac254c8d387e002e844d3
+      internalID: -43880726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_53
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028854a918b9d85409197e67475df747
+      internalID: 1885013101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_54
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545b9c69ec8429144848de58b29e83fa
+      internalID: 1894037360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_55
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f902b108edf0c9479b47821d4395258
+      internalID: -284290762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e67a0370e31cba48a78d3cc99fc2fa3
+      internalID: -1237118395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde64a43ca3f9d4b8784ce1e42b192f
+      internalID: 51564638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f2c0dfbd377aa45893424a08135c8a
+      internalID: -1821650925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d755d55206de5a4408174a2788f62306
+      internalID: -2146102487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_60
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be1d50547b08fa4aa261fe531855fbf
+      internalID: 921025944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_61
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0203b03348096347b2ec4d9aae057cd
+      internalID: 1033408702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_62
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceefd11d1379bd4491be3ca57205a68
+      internalID: -1717391201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c73f4dc7d81054e86e0165cebbf715
+      internalID: -897849382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_64
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb3ef7040ee6d94f9597a59b24e47a1
+      internalID: -1706689785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_65
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7185d61d848816844b575ce06430ca54
+      internalID: 1764183249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_66
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4fdfdddf84f9d419ea1c81f7882308
+      internalID: -297035631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_67
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435fc12da185bbb44b3509056115a5e4
+      internalID: -1052171524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_68
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8778b226d0f5f42b7f1ff66ba9ae56
+      internalID: 1950307777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_69
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbe0fd33c0ea574c94aeec21447ff98
+      internalID: 65772235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bedd4592739a8a4a897ee507b0291fc
+      internalID: 946631576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_71
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f03cf20936ff240bd3f7dd8e6a429a
+      internalID: -1233173422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_72
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ffaf5c33cec1a4daaeeeabe1717ac0
+      internalID: 1325662433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_73
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc77514c64ec92b41a5e01b296191050
+      internalID: -697939639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_74
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1037fcdc4edb504db98e534453f10cc
+      internalID: 132845206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_75
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443f2778983507f45a518b11cf68039f
+      internalID: -853152208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_76
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3000
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819983b0bbe15fe43aa32fd3dfb00cb5
+      internalID: -1190799799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c57b22ae1411d4fb2345e3e1b2df79
+      internalID: -1044284509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_78
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32c7d76a6ea97e45a0edbc0d689051c
+      internalID: 1116792546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_79
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2657a0514eef9e446b452efe350e7e1d
+      internalID: -511770077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_80
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b00cdb0698e3cc4eb9e7f9228048f83
+      internalID: 1662813096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_81
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c29ad89c523ad49b936faea9b1eaf5
+      internalID: 1224695264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_82
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6090745f78e2046a8a1207b9fdd604
+      internalID: -1576107047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_83
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d0c5efdec26cf4fbdb9ca39cddf8e6
+      internalID: -1779690916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860d4338825d83d4e8cb032f23c2bcb7
+      internalID: 359400100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_85
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e11a4aed0a9d664fac52f02bfe08350
+      internalID: -369771883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_86
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b1c9a3dc11a9e4da39ed2f2c35b7b1
+      internalID: -1257793018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_87
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58846dec34491ea4983705872b4e7074
+      internalID: 670334277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_88
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0bb8d3a3a6ed4429cd27b0b4c5bc35
+      internalID: -1586779411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_89
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d9792fd3290184eac012902408d3bc
+      internalID: -812682401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_90
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1800
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f974946926cdfa947a39b400ae2be8a5
+      internalID: 1920050104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6890c710dc12d26498c85352aabee800
+      internalID: -584337412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_92
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eebf67f6d478d4d84bc352d9a823f7
+      internalID: 1388383658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_93
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35263ca54e0c0e41983981696f34ea0
+      internalID: -696547346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_94
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c70be5d4f7772a40a02e22908c5b761
+      internalID: 267548289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_95
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c528baacfe8076640900cbabf583718a
+      internalID: -2002211884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_96
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d046b56be3ce6fb41864253c20ee64fc
+      internalID: -117100512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_97
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af841bfc9471645468af1022e6f62851
+      internalID: 828400267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4290d44e5c54544ae4dca55fce1173
+      internalID: 1658816762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_99
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc356b77c0ba9c44aace6e9634188f4
+      internalID: -458653661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_100
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195ba272244379043893183a3275d39e
+      internalID: 305625587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_101
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d5d52942bf964bb0981ff86471ed2
+      internalID: 1000490044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_102
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1983e7d1394bf0243bf8393ae4f72964
+      internalID: -1531660977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_103
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc56489bd04af654ea55c3eae6c4f90d
+      internalID: 28584860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_104
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 600
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b317784e75df541ad09bea22aea322
+      internalID: 1939747877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f879ed83d8880c248af7c283f2578a83
+      internalID: 966564329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_106
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d11a6ab865de1d40b8306551498af41
+      internalID: -1873079024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_107
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3727636a2b3a244490e06c70a58c59d
+      internalID: 313229788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_108
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1fc989b06fa7542b3975cd1226f7de
+      internalID: 1300973218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_109
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22c3f0c34d416243b84aaf15e0e0ff7
+      internalID: 101669528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_110
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c814c123cc60f8469ddbc19692972c0
+      internalID: -836048533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seminisGif_111
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7245809b1971d141a4480a5d1491709
+      internalID: -1255723870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e30e2293cebd4324c873e00f5010bddd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      seminisGif_24: -1640892773
+      seminisGif_44: 1087945844
+      seminisGif_49: -896972363
+      seminisGif_13: -353444006
+      seminisGif_51: 973482707
+      seminisGif_40: 677003412
+      seminisGif_27: 776749646
+      seminisGif_95: -2002211884
+      seminisGif_106: -1873079024
+      seminisGif_5: 683914066
+      seminisGif_33: 261847581
+      seminisGif_48: -612303520
+      seminisGif_66: -297035631
+      seminisGif_111: -1255723870
+      seminisGif_61: 1033408702
+      seminisGif_108: 1300973218
+      seminisGif_45: -2145300938
+      seminisGif_76: -1190799799
+      seminisGif_38: 653553772
+      seminisGif_46: 459634492
+      seminisGif_29: 304519439
+      seminisGif_102: -1531660977
+      seminisGif_86: -1257793018
+      seminisGif_64: -1706689785
+      seminisGif_52: -43880726
+      seminisGif_109: 101669528
+      seminisGif_65: 1764183249
+      seminisGif_110: -836048533
+      seminisGif_63: -897849382
+      seminisGif_54: 1894037360
+      seminisGif_7: 407595085
+      seminisGif_82: -1576107047
+      seminisGif_60: 921025944
+      seminisGif_0: -536072529
+      seminisGif_18: -1908552442
+      seminisGif_11: -1113686006
+      seminisGif_26: 32874121
+      seminisGif_104: 1939747877
+      seminisGif_2: 265806784
+      seminisGif_74: 132845206
+      seminisGif_78: 1116792546
+      seminisGif_103: 28584860
+      seminisGif_50: 1300286257
+      seminisGif_15: -1948537444
+      seminisGif_53: 1885013101
+      seminisGif_58: -1821650925
+      seminisGif_72: 1325662433
+      seminisGif_83: -1779690916
+      seminisGif_73: -697939639
+      seminisGif_84: 359400100
+      seminisGif_79: -511770077
+      seminisGif_80: 1662813096
+      seminisGif_99: -458653661
+      seminisGif_56: -1237118395
+      seminisGif_23: 2086790484
+      seminisGif_1: -675618968
+      seminisGif_12: 1369859008
+      seminisGif_77: -1044284509
+      seminisGif_92: 1388383658
+      seminisGif_98: 1658816762
+      seminisGif_96: -117100512
+      seminisGif_43: 2094244249
+      seminisGif_100: 305625587
+      seminisGif_9: -344922036
+      seminisGif_70: 946631576
+      seminisGif_28: -1882154763
+      seminisGif_16: -1200505670
+      seminisGif_81: 1224695264
+      seminisGif_32: 495788981
+      seminisGif_105: 966564329
+      seminisGif_36: 463788931
+      seminisGif_107: 313229788
+      seminisGif_22: -1831435971
+      seminisGif_10: 1468243646
+      seminisGif_37: -1535682229
+      seminisGif_35: 1543787747
+      seminisGif_6: -1186098975
+      seminisGif_41: 684972311
+      seminisGif_59: -2146102487
+      seminisGif_67: -1052171524
+      seminisGif_68: 1950307777
+      seminisGif_62: -1717391201
+      seminisGif_71: -1233173422
+      seminisGif_31: -1273369740
+      seminisGif_75: -853152208
+      seminisGif_30: -1910023004
+      seminisGif_34: 378864420
+      seminisGif_21: 1977138537
+      seminisGif_88: -1586779411
+      seminisGif_85: -369771883
+      seminisGif_4: 1817414995
+      seminisGif_39: -1350513354
+      seminisGif_8: 1040897411
+      seminisGif_97: 828400267
+      seminisGif_17: 34803235
+      seminisGif_14: 802593108
+      seminisGif_19: -2100494249
+      seminisGif_47: -1445875894
+      seminisGif_25: -1142509986
+      seminisGif_87: 670334277
+      seminisGif_57: 51564638
+      seminisGif_55: -284290762
+      seminisGif_101: 1000490044
+      seminisGif_89: -812682401
+      seminisGif_42: -523117979
+      seminisGif_3: 185859130
+      seminisGif_20: -1882685753
+      seminisGif_90: 1920050104
+      seminisGif_91: -584337412
+      seminisGif_93: -696547346
+      seminisGif_94: 267548289
+      seminisGif_69: 65772235
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -281,7 +281,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1360211403}
+    m_TransformParent: {fileID: 248883495}
     m_Modifications:
     - target: {fileID: 2303910090274920900, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_RootOrder
@@ -329,7 +329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2303910091236905541, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_Name
-      value: Plataforma4
+      value: Platform4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
@@ -837,11 +837,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1935772340}
     m_Modifications:
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalScale.x
@@ -857,15 +857,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.72
+      value: -1.7720826
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.52
+      value: -0.09000003
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.29
+      value: -2.9582958
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -901,7 +901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_Name
-      value: CajaPuzzleA
+      value: BoxPuzzleA
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_TagString
@@ -1011,23 +1011,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 353388810}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.24
+      value: 13.16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.58
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.19
+      value: 0.53999996
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1257,7 +1257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232580078}
   m_Layer: 0
-  m_Name: Escenario
+  m_Name: Scenary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1287,8 +1287,45 @@ Transform:
   - {fileID: 505166813}
   - {fileID: 940165890}
   - {fileID: 314718758}
+  - {fileID: 1077052030}
+  - {fileID: 353388810}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &248883494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248883495}
+  m_Layer: 0
+  m_Name: PlatformsBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248883495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248883494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 774813941}
+  - {fileID: 1316316388}
+  - {fileID: 1725190060}
+  - {fileID: 180266647}
+  m_Father: {fileID: 1360211403}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &290932905
 PrefabInstance:
@@ -1833,11 +1870,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1935772340}
     m_Modifications:
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalScale.x
@@ -1853,15 +1890,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.26
+      value: -4.3120832
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.88
+      value: -7.548296
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1893,7 +1930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_Name
-      value: CajaPuzzleD
+      value: BoxPuzzleD
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_TagString
@@ -1998,6 +2035,41 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!1 &353388809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353388810}
+  m_Layer: 0
+  m_Name: CoolectableTutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &353388810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353388809}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.9720829, y: 1.4699999, z: -6.3982954}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1056753014}
+  - {fileID: 1264029104}
+  - {fileID: 1775727182}
+  - {fileID: 1559784217}
+  m_Father: {fileID: 232580078}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &357145680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3180147045849469069, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
@@ -2146,6 +2218,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &357145687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2840071859262573111, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
+  m_PrefabInstance: {fileID: 748731282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &432015041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,7 +2360,7 @@ GameObject:
   - component: {fileID: 439841718}
   - component: {fileID: 439841717}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2372,23 +2449,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 353388810}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.92
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.08
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2497,7 +2574,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ffa47498f3a20f44dbe4e0c71ada9239, type: 2}
     - target: {fileID: 919132149155446097, guid: dfae78903b43a5f4388a15f49a8c5627, type: 3}
       propertyPath: m_Name
-      value: Barandales
+      value: Railings
       objectReference: {fileID: 0}
     - target: {fileID: 2442944161514866949, guid: dfae78903b43a5f4388a15f49a8c5627, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2518,7 +2595,7 @@ GameObject:
   - component: {fileID: 475395522}
   - component: {fileID: 475395521}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2612,7 +2689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 505166813}
   m_Layer: 0
-  m_Name: Paredes Oscuras
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2854,7 +2931,7 @@ GameObject:
   - component: {fileID: 567353002}
   - component: {fileID: 567353001}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3464,196 +3541,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ffa47498f3a20f44dbe4e0c71ada9239, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfae78903b43a5f4388a15f49a8c5627, type: 3}
---- !u!1 &673304308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 673304311}
-  - component: {fileID: 673304310}
-  - component: {fileID: 673304309}
-  m_Layer: 0
-  m_Name: Control
-  m_TagString: GameController
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &673304309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673304308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 278de0861965e784c87759c42f4372f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Collectible: {fileID: 1929516342}
-  levelCompleted: {fileID: 827579142}
---- !u!114 &673304310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673304308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aec7e50e33aba44e878bcb51ac478e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectible: 0
-  start: 0
-  LevelCompleted: 0
---- !u!4 &673304311
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673304308}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -458.43988, y: 144.0164, z: 140.578}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &708752425
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 708752427}
-  - component: {fileID: 708752426}
-  m_Layer: 0
-  m_Name: Lush Planet (1 Hour Loop)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &708752426
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708752425}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3f9b970a717f77147969249a2d4d6f27, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.171
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &708752427
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708752425}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3719425, y: -7.44471, z: 1.6959577}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 767037377}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &710129060
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,6 +3711,40 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ffa47498f3a20f44dbe4e0c71ada9239, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfae78903b43a5f4388a15f49a8c5627, type: 3}
+--- !u!1 &715950019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 715950020}
+  m_Layer: 0
+  m_Name: Transition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &715950020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715950019}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.904832, y: 2.929327, z: -4.0404124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1253479571}
+  - {fileID: 1471881329}
+  - {fileID: 2120148340}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &722924110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3908,7 +3829,7 @@ GameObject:
   - component: {fileID: 746251018}
   - component: {fileID: 746251017}
   m_Layer: 0
-  m_Name: Foco Cuarto
+  m_Name: Light Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3996,11 +3917,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1360211403}
     m_Modifications:
     - target: {fileID: 2840071859262573111, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2840071859262573111, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
       propertyPath: m_LocalScale.x
@@ -4016,15 +3937,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2840071859262573111, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.09
+      value: -0.14208269
       objectReference: {fileID: 0}
     - target: {fileID: 2840071859262573111, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.111
+      value: 0.5009999
       objectReference: {fileID: 0}
     - target: {fileID: 2840071859262573111, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.1169996
+      value: 11.448704
       objectReference: {fileID: 0}
     - target: {fileID: 2840071859262573111, guid: 5d5757483aecf294ca65dedf3f005de5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4256,12 +4177,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758467268}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000030517578, y: 0, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_LocalPosition: {x: -2.371912, y: -7.44471, z: 1.6959577}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 767037377}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &763076262 stripped
 GameObject:
@@ -4460,8 +4381,8 @@ Transform:
   m_Children:
   - {fileID: 1046593883}
   - {fileID: 1655133100}
-  - {fileID: 708752427}
   - {fileID: 1391894744}
+  - {fileID: 758467270}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4789,7 +4710,7 @@ GameObject:
   - component: {fileID: 839412660}
   - component: {fileID: 839412659}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5184,23 +5105,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 353388810}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.92
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.08
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5799,7 +5720,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.31545225, y: -0.3860792, z: 0.14243214, w: 0.8550707}
-  m_LocalPosition: {x: 9.901435, y: 9.842032, z: -15.888696}
+  m_LocalPosition: {x: 9.901435, y: 9.842032, z: -15.888695}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5948,7 +5869,7 @@ GameObject:
   - component: {fileID: 968194760}
   - component: {fileID: 968194759}
   m_Layer: 0
-  m_Name: 'Parede Cafe Oscura '
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6167,6 +6088,108 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &1056753014 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
+  m_PrefabInstance: {fileID: 451194938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1077052026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1077052030}
+  - component: {fileID: 1077052029}
+  - component: {fileID: 1077052028}
+  - component: {fileID: 1077052027}
+  m_Layer: 0
+  m_Name: NoPass_LeftRoomDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1077052027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077052026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1077052028
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077052026}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d1385980456cd2044b282d73625457db, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1077052029
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077052026}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1077052030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077052026}
+  m_LocalRotation: {x: -0.00012247216, y: 0.069478296, z: -0.000115825394, w: 0.99758345}
+  m_LocalPosition: {x: -13.100001, y: -2.6400003, z: -11}
+  m_LocalScale: {x: 46.839123, y: 30.751322, z: 5.2118}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 232580078}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -0.013, y: 7.968, z: -0.014}
 --- !u!1 &1078177070
 GameObject:
   m_ObjectHideFlags: 0
@@ -6180,7 +6203,7 @@ GameObject:
   - component: {fileID: 1078177073}
   - component: {fileID: 1078177072}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6277,7 +6300,7 @@ GameObject:
   - component: {fileID: 1084149035}
   - component: {fileID: 1084149034}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Hud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6363,7 +6386,7 @@ RectTransform:
   - {fileID: 1929516340}
   - {fileID: 827579144}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6375,11 +6398,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1935772340}
     m_Modifications:
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalScale.x
@@ -6395,15 +6418,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.27
+      value: 4.2179174
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.66
+      value: 4.0499997
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.31
+      value: 5.641704
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6435,7 +6458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_Name
-      value: CajaPuzzleB
+      value: BoxPuzzleB
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_TagString
@@ -6471,7 +6494,7 @@ Transform:
   m_GameObject: {fileID: 1144610458}
   m_LocalRotation: {x: -0.000118021555, y: 0.10701274, z: -0.00012035729, w: 0.9942577}
   m_LocalPosition: {x: -26.84, y: 9.82, z: -5.13}
-  m_LocalScale: {x: 46.83912, y: 13.999514, z: 5.2117953}
+  m_LocalScale: {x: 47.797455, y: 13.999514, z: 5.2117953}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1389179446}
@@ -6668,7 +6691,7 @@ GameObject:
   - component: {fileID: 1225750160}
   - component: {fileID: 1225750159}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6775,11 +6798,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1935772340}
     m_Modifications:
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalScale.x
@@ -6795,15 +6818,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.2
+      value: -4.252083
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.09
+      value: 0.48000002
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.92
+      value: -6.588296
       objectReference: {fileID: 0}
     - target: {fileID: 6293914377322084943, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6835,7 +6858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_Name
-      value: CajaPuzzleC
+      value: BoxPuzzleC
       objectReference: {fileID: 0}
     - target: {fileID: 7432870416544382776, guid: a737ac0570e933c48b37fdee130eafca, type: 3}
       propertyPath: m_TagString
@@ -6866,8 +6889,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253479570}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.987345, y: 1.2934083, z: 5.109288}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.917487, y: -1.6359185, z: 9.1497}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6875,8 +6898,8 @@ Transform:
   - {fileID: 963194228}
   - {fileID: 2126199889}
   - {fileID: 1682947172}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 715950020}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1264029102
 GameObject:
@@ -6965,12 +6988,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264029102}
   m_LocalRotation: {x: 0.47312152, y: -0.24899228, z: -0.14884348, w: 0.83186805}
-  m_LocalPosition: {x: 7.288004, y: 12.513, z: -11.129999}
-  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+  m_LocalPosition: {x: 14.208004, y: 10.433, z: -0.39999962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 353388810}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45.482, y: -52.346, z: -43.569}
 --- !u!1 &1304828465
 GameObject:
@@ -7155,7 +7178,7 @@ GameObject:
   - component: {fileID: 1308860912}
   - component: {fileID: 1308860911}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7278,7 +7301,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1360211403}
+    m_TransformParent: {fileID: 248883495}
     m_Modifications:
     - target: {fileID: 2303910090274920900, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_RootOrder
@@ -7326,7 +7349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2303910091236905541, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_Name
-      value: Plataforma2
+      value: Platform2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
@@ -7360,7 +7383,7 @@ GameObject:
   - component: {fileID: 1356503297}
   - component: {fileID: 1356503298}
   m_Layer: 0
-  m_Name: Condiciones
+  m_Name: FinishTutorialConditionals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7379,7 +7402,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1360211403}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1356503297
 MonoBehaviour:
@@ -7523,14 +7546,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 774813941}
-  - {fileID: 1316316388}
-  - {fileID: 1725190060}
-  - {fileID: 180266647}
+  - {fileID: 248883495}
   - {fileID: 1683806686}
   - {fileID: 1356503296}
+  - {fileID: 1935772340}
+  - {fileID: 357145687}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1368241779
 GameObject:
@@ -7621,7 +7643,7 @@ GameObject:
   - component: {fileID: 1387960297}
   - component: {fileID: 1387960298}
   m_Layer: 0
-  m_Name: Foco CuartoFondo
+  m_Name: Light Room Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7866,7 +7888,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 767037377}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1451084237
 GameObject:
@@ -7957,7 +7979,7 @@ GameObject:
   - component: {fileID: 1462757382}
   - component: {fileID: 1462757381}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8103,13 +8125,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471881325}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.36, y: 1.1376443, z: 9.12}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.544832, y: -1.7916825, z: 13.160412}
   m_LocalScale: {x: 5.4017, y: 4.385262, z: 13.321133}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 715950020}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1486774041
 PrefabInstance:
@@ -8550,6 +8572,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &1559784217 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
+  m_PrefabInstance: {fileID: 908315377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1562508098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8636,7 +8663,7 @@ GameObject:
   - component: {fileID: 1577607087}
   - component: {fileID: 1577607086}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8756,7 +8783,7 @@ GameObject:
   - component: {fileID: 1590048100}
   - component: {fileID: 1590048099}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9113,7 +9140,7 @@ GameObject:
   - component: {fileID: 1632170082}
   - component: {fileID: 1632170081}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9304,7 +9331,7 @@ GameObject:
   - component: {fileID: 1659785076}
   - component: {fileID: 1659785075}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9472,7 +9499,7 @@ GameObject:
   - component: {fileID: 1683806688}
   - component: {fileID: 1683806687}
   m_Layer: 0
-  m_Name: Jefe
+  m_Name: SeedWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9491,7 +9518,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1360211403}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.007, y: 0, z: -0.018}
 --- !u!65 &1683806687
 BoxCollider:
@@ -9691,7 +9718,7 @@ GameObject:
   - component: {fileID: 1760947676}
   - component: {fileID: 1760947675}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9806,6 +9833,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.70224947, y: 0.6727004, z: 0.34881786}
   m_Center: {x: -0.006547957, y: 0.000107795, z: -0.01722286}
+--- !u!4 &1775727182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 706ddb75bced18743b8cda5e0f2202df, type: 3}
+  m_PrefabInstance: {fileID: 223032569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1781580644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9892,7 +9924,7 @@ GameObject:
   - component: {fileID: 1807574214}
   - component: {fileID: 1807574213}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10169,7 +10201,7 @@ GameObject:
   - component: {fileID: 1831517258}
   - component: {fileID: 1831517257}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10650,7 +10682,7 @@ GameObject:
   - component: {fileID: 1934727371}
   - component: {fileID: 1934727370}
   m_Layer: 0
-  m_Name: framePuerta
+  m_Name: frameDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10721,6 +10753,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934727368}
   m_Mesh: {fileID: -355255188425379839, guid: d31983e7eb7b1ac4981a032f5fb556f3, type: 3}
+--- !u!1 &1935772339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935772340}
+  m_Layer: 0
+  m_Name: Boxes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1935772340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935772339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1886694763}
+  - {fileID: 1982525639}
+  - {fileID: 1826760463}
+  - {fileID: 668446897}
+  m_Father: {fileID: 1360211403}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1952311190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dfae78903b43a5f4388a15f49a8c5627, type: 3}
@@ -11083,7 +11150,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1360211403}
+    m_TransformParent: {fileID: 248883495}
     m_Modifications:
     - target: {fileID: 2303910090274920900, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_RootOrder
@@ -11131,7 +11198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2303910091236905541, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_Name
-      value: Plataforma3
+      value: Platform3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
@@ -11177,13 +11244,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120148339}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.549396, y: 0.765452, z: -10.716338}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.355436, y: -2.163875, z: -6.6759257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 715950020}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2120148341
 MonoBehaviour:
@@ -11198,6 +11265,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cinemachineBrain: {fileID: 0}
+  musicLevel: {fileID: 0}
+  BossMusic: {fileID: 0}
   olmo: {fileID: 0}
   BossObj: {fileID: 0}
   camaraMain: {fileID: 0}
@@ -11293,7 +11362,7 @@ GameObject:
   - component: {fileID: 2146557835}
   - component: {fileID: 2146557834}
   m_Layer: 0
-  m_Name: Parede Cafe Oscura
+  m_Name: DarkWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11382,7 +11451,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1360211403}
+    m_TransformParent: {fileID: 248883495}
     m_Modifications:
     - target: {fileID: 2303910090274920900, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_RootOrder
@@ -11430,7 +11499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2303910091236905541, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
       propertyPath: m_Name
-      value: Plataforma1
+      value: Platform1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fe4d4e7be1fa67499396fb474e16bde, type: 3}
@@ -11799,7 +11868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3234220300409640273, guid: 38a3570a4d33eb443bd07a87d7e75f8d, type: 3}
       propertyPath: m_Name
-      value: Piso
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 3234220300409640273, guid: 38a3570a4d33eb443bd07a87d7e75f8d, type: 3}
       propertyPath: m_TagString
