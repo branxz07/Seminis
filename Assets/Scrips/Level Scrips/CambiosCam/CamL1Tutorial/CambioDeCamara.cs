@@ -7,6 +7,7 @@ public class CambioDeCamara : MonoBehaviour
 {
     public GameObject camaraA, camaraB;
 
+    public bool inside;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class CambioDeCamara : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if (other.gameObject.tag=="Player")
         {
+            inside=true;
             camaraA.SetActive(false);
             camaraB.SetActive(true);
             
@@ -29,6 +31,7 @@ public class CambioDeCamara : MonoBehaviour
     private void OnTriggerExit(Collider other){
 if (other.gameObject.tag=="Player")
         {
+            inside=false;
             camaraA.SetActive(true);
             camaraB.SetActive(false);
 

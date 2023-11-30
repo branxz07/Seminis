@@ -10,6 +10,7 @@ TagManager:
   - escalable
   - Suelo
   - notLoad
+  - BossWeakness
   layers:
   - Default
   - TransparentFX

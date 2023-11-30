@@ -12,13 +12,26 @@ public class ButtonsCombination : MonoBehaviour
     public AudioSource error;
     public GameObject pared;
     public bool active;
+    bool timerOn;
     NumberRand key;
+    CambioDeCamara cam;
     void Start(){
+        cam=GameObject.FindObjectOfType<CambioDeCamara>();
         key=GameObject.FindObjectOfType<NumberRand>();
     }
     // Lista para almacenar los botones presionados por el jugador
     private List<int> botonesPresionados = new List<int>();
     void Update(){
+        if (!timerOn)
+        {
+            if (!cam.inside)
+            {
+                pared.SetActive(true);
+            }else
+            {
+                pared.SetActive(false);
+            }
+        }
         secuenciaCorrecta[0]=key.x[0];
         secuenciaCorrecta[1]=key.x[1];
         secuenciaCorrecta[2]=key.x[2];
@@ -38,7 +51,8 @@ public class ButtonsCombination : MonoBehaviour
         {
             if (VerificarSecuencia())
             {
-            StartCoroutine(boxtimer());
+                timerOn=true;
+                StartCoroutine(boxtimer());
             }
         }
     }
@@ -70,6 +84,7 @@ public class ButtonsCombination : MonoBehaviour
     {
         pared.SetActive(true);
         Debug.Log("Secuencia incorrecta. Reiniciando...");
+        
         // Puedes agregar acciones adicionales aquí si es necesario
 
         // Limpiar la lista de botones presionados
@@ -80,6 +95,7 @@ public class ButtonsCombination : MonoBehaviour
     yield return new WaitForSeconds(8f);  
 
     timer.Stop();
+    timerOn=false;
     // Activa load después de 2 segundos
     active=false;
     ReiniciarSecuencia();

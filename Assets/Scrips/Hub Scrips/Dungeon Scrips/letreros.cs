@@ -22,17 +22,24 @@ public class letreros : MonoBehaviour
     public GameObject[] lampsApagadaIzq;
     public GameObject[] lampsApagadaDer;
     public GameObject[] Puertas;
-    
+    public controlarColeccionables dungeons;
+    public GameObject lights;
+    public GameObject Olmo;
+    public GameObject[] credits;
     // Start is called before the first frame update
     void Start()
     {
-        
+        dungeons=FindObjectOfType<controlarColeccionables>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (controlarColeccionables.Instance.L1)
+        if (dungeons.L1)
+        {
+            lights.SetActive(true);
+        }
+        if (dungeons.L1)
         {
             cL1.SetActive(true);
             iL1.SetActive(false);
@@ -42,30 +49,39 @@ public class letreros : MonoBehaviour
             lampsEncendidaIzq[0].SetActive(true);
             lampsEncendidaDer[0].SetActive(true);
         }
-        if (controlarColeccionables.Instance.L2)
+        if (dungeons.L2)
         {
             cL2.SetActive(true);
             iL2.SetActive(false);
+            credits[0].SetActive(true);
+            credits[1].SetActive(true);
+            Olmo.SetActive(false);
+            StartCoroutine(DelayToQuit());
+
         }
-        if (controlarColeccionables.Instance.L3)
+        if (dungeons.L3)
         {
             cL3.SetActive(true);
             iL3.SetActive(false);
         }
-        if (controlarColeccionables.Instance.L4)
+        if (dungeons.L4)
         {
             cL4.SetActive(true);
             iL4.SetActive(false);
         }
-        if (controlarColeccionables.Instance.L5)
+        if (dungeons.L5)
         {
             cL5.SetActive(true);
             iL5.SetActive(false);
         }
-        if (controlarColeccionables.Instance.L6)
+        if (dungeons.L6)
         {
             cL6.SetActive(true);
             iL6.SetActive(false);
         }
+    }
+    IEnumerator DelayToQuit(){
+        yield return new WaitForSeconds(65f);
+        Application.Quit();
     }
 }

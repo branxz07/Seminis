@@ -6,7 +6,7 @@ public class move : MonoBehaviour
 {
     public CharacterController controller;
     [Header("Opciones de Personaje")]
-    public float walkSpeed = 15.0f;
+    public float walkSpeed = 8.0f;
     public float jumpSpeed = 10.0f; // Ajusta el valor de jumpSpeed según tu preferencia
     
     private float oriWS;
@@ -37,7 +37,7 @@ public class move : MonoBehaviour
             walkSpeed = oriWS;
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                walkSpeed += 10;
+                walkSpeed +=7;
             }
 
             float x = Input.GetAxis("Horizontal");
@@ -48,13 +48,13 @@ public class move : MonoBehaviour
             controller.Move(muevete * walkSpeed * Time.deltaTime);
 
             // Cambiar la animación según la dirección del movimiento
-            if (muevete[0] != 0 || muevete[2] != 0 && !Input.GetKey(KeyCode.LeftShift))
-            {
-                animator.runtimeAnimatorController = anim1[1];
-            }
-            else if (muevete[0] != 0 || muevete[2] != 0 && Input.GetKey(KeyCode.LeftShift))
+            if ((muevete[0] != 0 || muevete[2] != 0) && Input.GetKey(KeyCode.LeftShift))
             {
                 animator.runtimeAnimatorController = anim1[2];
+            }
+            else if ((muevete[0] != 0 || muevete[2] != 0) && !Input.GetKey(KeyCode.LeftShift))
+            {
+                animator.runtimeAnimatorController = anim1[1];
             }
             else if (muevete[0] == 0 && muevete[2] == 0)
             {

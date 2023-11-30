@@ -124,11 +124,10 @@ MonoBehaviour:
   controller: {fileID: 2101264880353373926}
   walkSpeed: 5
   jumpSpeed: 20
-  gravity: 45
-  fuerza: 10
-  unObjeto: {fileID: 0}
-  lian: {fileID: 0}
+  menu: 0
   pesado: 0
+  anim1: []
+  animator: {fileID: 0}
 --- !u!114 &2101264880353373922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,6 +141,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imagen: {fileID: 0}
+  anim1: []
+  animator: {fileID: 0}
   walkSpeed: 5
   jumpSpeed: 15
   gravity: 45
@@ -149,6 +150,8 @@ MonoBehaviour:
   unObjeto: {fileID: 0}
   lian: {fileID: 0}
   pesado: 0
+  walkWood: {fileID: 0}
+  WalkStone: {fileID: 0}
 --- !u!1001 &8951780395979925957
 PrefabInstance:
   m_ObjectHideFlags: 0
